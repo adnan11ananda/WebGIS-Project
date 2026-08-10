@@ -25,7 +25,10 @@ map.on('load', () => {
     data: layanan_kesehatan
   });
 
-  
+  map.addSource('area', {
+    type: 'geojson',
+    data: "https://geoserver.mapid.io/layers_new/get_layer?api_key=55013b38e13441b1b3e182796cf09a6d&layer_id=6a7a529ab54ea2cae50be3bf&project_id=6a7a522cb54ea2cae50bd59b"
+  });
 
   map.addLayer({
     id: 'jalan-layer',
@@ -43,6 +46,15 @@ map.on('load', () => {
     paint: {
       'circle-radius': 5,
       'circle-color': '#0000FF'
+    }
+  });
+  map.addLayer({
+    id: 'area-layer',
+    type: 'fill',
+    source: 'area',
+    paint: {
+      'fill-color': '#00FF00',
+      'fill-opacity': 0.5
     }
   });
 });
