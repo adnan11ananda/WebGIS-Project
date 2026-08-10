@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Layanan_Kesehatan_Pbm",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "NAMOBJ": "Polindes Tanjungrambang", "FCODE": null, "LCODE": "GI0020", "REMARK": "Poliklinik/Polindes/Posyandu", "SRS_ID": null, "METADATA": null, "LKALMT": null, "TPLYST": 1 }, "geometry": { "type": "Point", "coordinates": [ 104.265700130000084, -3.552245789999972, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Polindes Karangbindu", "FCODE": null, "LCODE": "GI0020", "REMARK": "Poliklinik/Polindes/Posyandu", "SRS_ID": null, "METADATA": null, "LKALMT": null, "TPLYST": 1 }, "geometry": { "type": "Point", "coordinates": [ 104.255611340000087, -3.540762749999942, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Polindes Karangan", "FCODE": null, "LCODE": "GI0020", "REMARK": "Poliklinik/Polindes/Posyandu", "SRS_ID": null, "METADATA": null, "LKALMT": null, "TPLYST": 1 }, "geometry": { "type": "Point", "coordinates": [ 104.255423420000056, -3.511843668999973, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Polindes Sukaraja", "FCODE": null, "LCODE": "GI0020", "REMARK": "Poliklinik/Polindes/Posyandu", "SRS_ID": null, "METADATA": null, "LKALMT": null, "TPLYST": 1 }, "geometry": { "type": "Point", "coordinates": [ 104.240114960000085, -3.449978939999937, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Polindes Tanjungmenang", "FCODE": null, "LCODE": "GI0020", "REMARK": "Poliklinik/Polindes/Posyandu", "SRS_ID": null, "METADATA": null, "LKALMT": null, "TPLYST": 1 }, "geometry": { "type": "Point", "coordinates": [ 104.215680200000065, -3.491426109999964, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Klinik IMS Patihgalung", "FCODE": null, "LCODE": "GI0020", "REMARK": "Poliklinik/Polindes/Posyandu", "SRS_ID": null, "METADATA": null, "LKALMT": null, "TPLYST": 1 }, "geometry": { "type": "Point", "coordinates": [ 104.156977880000056, -3.46096031899998, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Klinik Fadillah Patihgalung", "FCODE": null, "LCODE": "GI0020", "REMARK": "Poliklinik/Polindes/Posyandu", "SRS_ID": null, "METADATA": null, "LKALMT": null, "TPLYST": 1 }, "geometry": { "type": "Point", "coordinates": [ 104.209191520000047, -3.444271119999939, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "Polindes Gunungibul Barat", "FCODE": null, "LCODE": "GI0020", "REMARK": "Poliklinik/Polindes/Posyandu", "SRS_ID": null, "METADATA": null, "LKALMT": null, "TPLYST": 1 }, "geometry": { "type": "Point", "coordinates": [ 104.260085850000053, -3.403398438999943, 0.0 ] } },
+{ "type": "Feature", "properties": { "NAMOBJ": "RS AR BUNDA", "FCODE": null, "LCODE": null, "REMARK": null, "SRS_ID": null, "METADATA": null, "LKALMT": null, "TPLYST": null }, "geometry": { "type": "Point", "coordinates": [ 104.25468772276983, -3.409625919486693, 0.0 ] } }
+]
+}
