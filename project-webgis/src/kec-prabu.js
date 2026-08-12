@@ -17,7 +17,6 @@ const map = new Map({
 
 map.on('load', () => {
   addAreaLayer(map);
-  addLineLayer(map);
-  addPointLayer(map);
+  
   
   });
