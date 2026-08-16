@@ -20,10 +20,11 @@ document.body.appendChild(mapElement);
 
 const map = new Map({
   container: 'map',
-  style: 'https://demotiles.maplibre.org/style.json',
+  style: 'https://api.maptiler.com/maps/hybrid-v4/style.json?key=dILJMd6XGwLVf88PHfg3',
   center: [104.23117780290508, -3.441584955294986],
   zoom: 10,
- attributionControl: false
+  attributionControl: false,
+  cooperativeGestures: true
 });
 
 
