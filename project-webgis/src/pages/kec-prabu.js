@@ -1,7 +1,7 @@
 import { Map } from 'maplibre-gl';
-import { addAreaLayer } from './layers/Area.js';
-import { addLineLayer } from './layers/line.js';
-import { addPointLayer } from './layers/point.js';
+import { addAreaLayer } from '../../src/layers/Area.js';
+import { addLineLayer } from '../../src/layers/line.js';
+import { addPointLayer } from '../../src/layers/point.js';
 
 const mapElement = document.createElement('div');
 mapElement.id = 'map';
