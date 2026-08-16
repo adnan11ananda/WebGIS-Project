@@ -1,6 +1,9 @@
 import { 
-  Map,
-AttributionControl } from 'maplibre-gl';
+Map,
+AttributionControl,
+FullscreenControl,
+GlobeControl 
+} from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { addAreaLayer } from '../layers/Area.js';
 import { addLineLayer } from '../layers/line.js';
@@ -27,3 +30,6 @@ map.addControl(new AttributionControl({
   compact: true,
   customAttribution: '&copy; <a href="https://tanahair.indonesia.go.id/portal-web/">2026 Badan Informasi Geospasial</a>'
 }));
+
+map.addControl(new FullscreenControl());
+map.addControl(new GlobeControl());
