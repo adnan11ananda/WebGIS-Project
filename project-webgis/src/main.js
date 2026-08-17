@@ -20,7 +20,7 @@ document.body.appendChild(mapElement);
 
 const map = new Map({
   container: 'map',
-  style: 'https://api.maptiler.com/maps/hybrid-v4/style.json?key=dILJMd6XGwLVf88PHfg3',
+  style: 'https://basemap.mapid.io/styles/street-2d-building/style.json?key=6a81fca2610fe054a12df0fc',
   center: [104.23117780290508, -3.441584955294986],
   zoom: 10,
   attributionControl: false,
